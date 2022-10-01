@@ -2,9 +2,32 @@ img {
   height: 210px;
 }
 
-body {
-  background-color: #CDF0EA;
+body
+  {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
 }
+
+.center h3{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
 
 label {
   font-family: 'Helvetica', sans-serif;
@@ -32,9 +55,28 @@ h3 {
   font-family: 'Helvetica', sans-serif;
 }
 
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background: #CDF0EA;
+  border-radius: 12px;
+  box-shadow: 10px 10px 15px rgba(0.5,0.5,0.5,0.5);
+}
+
+.center2{
+  position: relative;
+  left: 40%;
+  width: 0px;
+  background: #CDF0EA;
+}
+
 hr {
   border-style: dotted none none;
-  border-width: 2px;
+  border-width: 0px;
   border height: thin;
   border-color: grey;
   width: 300px;
