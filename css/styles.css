@@ -34,7 +34,8 @@ label {
 }
 
 h1 {
-  color: #256D85;
+  /* color: #256D85; */
+  color: black;
   font-family: 'Helvetica', sans-serif;
 }
 
@@ -51,7 +52,8 @@ table {
 }
 
 h3 {
-  color: #256D85;
+  /* color: #256D85; */
+  color: black;
   font-family: 'Helvetica', sans-serif;
 }
 
@@ -72,6 +74,15 @@ h3 {
   left: 40%;
   width: 0px;
   background: #CDF0EA;
+}
+
+
+.center3{
+  /* padding: 20; */
+  position: relative;
+  background: #CDF0EA;
+  padding-left: 25;
+  padding-bottom: 100;
 }
 
 hr {
